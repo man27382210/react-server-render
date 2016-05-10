@@ -1,6 +1,6 @@
 {
   "name": "react-server-side-render",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Render React Component with pre environment setting and custom function.",
   "main": "dist/index.js",
   "scripts": {

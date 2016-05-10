@@ -4,12 +4,12 @@
 > Render React Component with pre environment setting and custom function.
 
 ```
-npm install --save react-server-render
+npm install --save react-server-side-render
 ```
 ### Useage
 ```js
 
-import renderService from "react-server-render";
+import renderService from "react-server-side-render";
 const RenderService = new renderService();
 RenderService.init();
 var markupDone = 
@@ -32,7 +32,7 @@ RenderService.render({
 
 ### Simple Useage
 ```js
-import renderService from "../src/index.js";
+import renderService from "react-server-side-render";
 const RenderService = new renderService();
 RenderService.init();
 
