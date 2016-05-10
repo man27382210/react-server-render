@@ -24,7 +24,7 @@ describe('React server side render test', function () {
 						return markup;
 					}
 				});
-				expect(markupDone).to.have.string("Hello, world");
+			expect(markupDone).to.have.string("Hello, world");
 			done();
 		});
 		it('should render with react template', function (done) {
@@ -48,7 +48,6 @@ describe('React server side render test', function () {
 						return "<div id='"+dom_id+"' data-sync='"+timestamp+"' data-loid='"+dom_id+"'>" +markup+"</div>";
 					}
 				});
-			console.log(markupDone);
 			expect(markupDone).to.have.string("證券交易所日常");
 			done();
 		});
