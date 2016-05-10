@@ -11,6 +11,7 @@ npm install --save react-server-side-render
 
 import renderService from "react-server-side-render";
 const RenderService = new renderService();
+// in ES5, use -> var RenderService = new renderService.default();
 RenderService.init();
 var markupDone = 
 RenderService.render({
