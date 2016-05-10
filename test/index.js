@@ -2,8 +2,8 @@ import "babel-polyfill";
 require('node-jsx').install({
     extension: '.jsx'
 });
-import renderService from "../src/index.js";
 import path from "path";
+import renderService from "../src/index.js";
 const RenderService = new renderService();
 const assert = require("assert"),
     chai=require("chai"),
