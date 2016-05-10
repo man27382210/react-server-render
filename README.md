@@ -6,7 +6,7 @@
 ```
 npm install --save react-server-side-render
 ```
-### Useage
+### Usage
 ```js
 
 import renderService from "react-server-side-render";
@@ -31,7 +31,7 @@ RenderService.render({
  * Two parameters: markup is the result of React render static html, option is the return object of beforeRender function. 
  *  render() will return afterRender().
 
-### Simple Useage
+### Simple Usage
 ```js
 import renderService from "react-server-side-render";
 const RenderService = new renderService();
