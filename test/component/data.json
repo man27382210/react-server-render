@@ -1,0 +1,21 @@
+{
+    "imageArea": {
+        "contentObject": {
+            "imageArea": 
+            [
+                {
+                    "itemName": "證券交易所",
+                    "author": "古斯基",
+                    "imageUrl": "http://mmbiz.qpic.cn/mmbiz/3QdfuJ6jtp3z7SWT3iagu1mm0Hpc1nSKa4rOqDIyWFNPhM2wTAbcZxrHd6y7aJCKn9tN7ZMqP1hm2t2HCWF9Osg/0?wx_fmt=jpeg",
+                    "message": "證券交易所日常"
+                },
+                {
+                    "itemName": "萊茵河",
+                    "author": "古斯基",
+                    "imageUrl": "https://cdn.thestandnews.com/media/photos/cache/andreas04_Qczmz_1200x0.jpg",
+                    "message": "德國萊茵河II"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,7 @@
+<li rt-scope="this.d as data;">
+    <span data-dom-id="image-area"></span>
+    <h2 className="img-crop"> <img className="cate-img" src={data.imageUrl} alt="{data.itemName}" title="{data.itemName}" /></h2>
+    <h2 className="item-name">{data.itemName}</h2>
+    <h2 className="author-name">{data.author}</h2>
+    <h2 className="author-name">{data.message}</h2>
+</li>

@@ -1,0 +1,4 @@
+module.exports = {
+	remoteUrl: '',
+	localPath: './test/component/image_area/image_area.rt'
+}

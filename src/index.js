@@ -1,8 +1,11 @@
 import "babel-polyfill";
 import React from "react";
+import ReactDOMServer from "react-dom/server";
+import _ from "lodash";
 require('node-jsx').install({
     extension: '.jsx'
 });
+
 
 
 export default function(){
@@ -28,8 +31,8 @@ export default function(){
 
 	this.render = function(config){
 		var Component = React.createFactory(require(config.componentPath));
-		var option = config.beforeRender();
-		var ComponentMarkup = React.renderToStaticMarkup(Component(config.props));
+		var option = config.beforeRender() || {};
+		var ComponentMarkup = ReactDOMServer.renderToStaticMarkup(Component(config.props));
 		return config.afterRender(ComponentMarkup, option);
 	}	
 
